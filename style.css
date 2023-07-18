@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif;
 
 .bannerBgImage{
     height: 100vh;
-    background-image:url(seaimage.jpg);
+    background-image:url(/bgimg.jpeg);
     background-size: cover;
     position: relative;
 }
