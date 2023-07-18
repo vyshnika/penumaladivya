@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto&display=swap');
+
+    *
+    {
+        font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;
+    }
+
+
+
+
+
+.bannerBgImage{
+    height: 100vh;
+    background-image:url(seaimage.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+.bannerText{
+
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+     cursor: pointer;
+}
+.card:hover{
+    background-color:palevioletred;
+    border:3px solid yellowgreen;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border:3px solid yellowgreen;
+}
+.card-img-top{
+    height:50vh;
+}
